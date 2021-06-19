@@ -64,10 +64,10 @@ def update_customer_info(response:Response, requestInput: SchemaCustomerInfo,cus
 		applogger.error(str(e))
 		return {"response":str(e)}
 
-@router.get("/customers")
-def get_customer_info(response:Response):
+@router.get("/customers/{customerID}")
+def get_customer_info(response:Response, customerID):
 	try:
-		rows = get()
+		rows = get(customerID)
 		batch_data = []
 		for row in rows:
 			batch_data.append({

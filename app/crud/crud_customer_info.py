@@ -36,8 +36,8 @@ def update(customerID, obj_in):
 	db.close()
 	return 1
 
-def get():
-	rows = db.query(CustomerINFO).all()
+def get(customerID):
+	rows = db.query(CustomerINFO).filter(CustomerINFO.customerID==customerID).all()
 	db.close()
 	return rows
 
