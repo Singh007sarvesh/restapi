@@ -1,0 +1,7 @@
+[2021-06-19 10:13:41,183] [INFO] - customer_info_api.py - get_customer_info - Fatched all data from customer info table
+[2021-06-19 10:13:56,321] [INFO] - customer_info_api.py - create_customer_info - Successfully added to customer table
+[2021-06-19 10:14:10,322] [INFO] - customer_info_api.py - delete_customers_info - Deleted data from customer info table based on customerID
+[2021-06-19 10:14:11,457] [INFO] - customer_info_api.py - delete_customers_info - Data not found in customerINFO table
+[2021-06-19 10:14:16,900] [INFO] - customer_info_api.py - update_customer_info - Data not found in customerINFO table
+[2021-06-19 10:14:26,243] [INFO] - customer_info_api.py - update_customer_info - Updated customerINFO table based on customerID
+[2021-06-19 10:14:28,846] [INFO] - customer_info_api.py - update_customer_info - Updated customerINFO table based on customerID
